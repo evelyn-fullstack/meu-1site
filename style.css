@@ -164,6 +164,7 @@ form{
     gap: 20px;
     max-width: 400px;
     text-align: center;
+    margin: auto;
 }
 
 footer{
