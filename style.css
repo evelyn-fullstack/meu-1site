@@ -4,6 +4,49 @@
    box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    header div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .caixa {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem {
+        max-width: 100%;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .descricao {
+        font-size: 18px;
+    }
+}
+
 .titulo{
     font-size: 70px;
     text-align: center;
